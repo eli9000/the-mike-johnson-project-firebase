@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import firebase from 'firebase';
+// import firebase from 'firebase';
 import fire from './fire';
 import './App.css';
 
@@ -27,6 +27,7 @@ class App extends Component {
   }
 
   render() {
+    console.log(this.state.messages);
     return (
       <div className="Apple">
         <div className="ish">
